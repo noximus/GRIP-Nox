@@ -1,6 +1,4 @@
-# Grip Entertainment Rating App
-
-This is for a GRIP project.  
+# GRIP Entertainment Rating App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
