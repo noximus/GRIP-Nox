@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
-// components
 import { Home, Services, Contact } from "./components";
 
 class Routes extends Component {
