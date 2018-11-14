@@ -8,7 +8,7 @@ class Routes extends Component {
 		return <div className="container">
 			<div className="row">
 				<div className="col-12">
-					<h3 className="text-center">Animating Routes With GSAP</h3>
+					<h3 className="text-center">GRIP Entertainment Rating App</h3>
 					<p className="lead"></p>
 				</div>
 			</div>
