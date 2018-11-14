@@ -23,3 +23,7 @@ a:hover,
 .position-absolute{
   position: absolute;
 }
+.grid-cont {
+  display: grid;
+  grid-template-rows: 80px 100%;
+}

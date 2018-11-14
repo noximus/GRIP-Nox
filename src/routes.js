@@ -5,26 +5,23 @@ import { Home, Services, Contact } from "./components";
 class Routes extends Component {
 
 	render(){
-		return <div className="container">
-			<div className="row">
-				<div className="col-12">
-					<h3 className="text-center">GRIP Entertainment Rating App</h3>
-					<p className="lead"></p>
-				</div>
+		return <div>
+			<div>
+				<h1>hello app</h1>
 			</div>
-
+			<div>
 			<BrowserRouter>
-				<div className="row">
+				<div>
 
 					{/* MENU */}
-					<nav className="col-12">
-						<Link className="btn gsap-btn mr-2" to="/">Home</Link>
-						<Link className="btn gsap-btn mr-2" to="/services">Services</Link>
-						<Link className="btn gsap-btn" to="/contact">Contact</Link>
+					<nav>
+						<Link className="gsap-btn" to="/">Home</Link>
+						<Link className="gsap-btn" to="/services">Services</Link>
+						<Link className="gsap-btn" to="/contact">Contact</Link>
 					</nav>
 
 					{/* CONTENT */}
-					<div className="col-12">
+					<div>
 						<Route path="/" exact>
 							{ ({ match }) => <Home show={match !== null} /> }
 						</Route>
@@ -39,7 +36,7 @@ class Routes extends Component {
 
 				</div>
 			</BrowserRouter>
-
+			</div>
 		</div>;
 	}
 
