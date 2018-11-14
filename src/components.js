@@ -1,6 +1,7 @@
+import * as TweenMax from 'gsap/umd/TweenMax'
 import React from "react";
 import { Transition } from "react-transition-group";
-import { TweenMax } from "gsap/all";
+// import { TweenMax } from "gsap/all";
 
 const startState = { autoAlpha: 0, y: -50 };
 
