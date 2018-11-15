@@ -30,9 +30,9 @@ class Routes extends Component {
 						</Route>
 					</div>
 					<footer>
-						<Link className="gsap-btn active" to="/"><div>Home</div></Link>
-						<Link className="gsap-btn" to="/top"><div>Top</div></Link>
-						<Link className="gsap-btn" to="/reviewed"><div>Reviewed</div></Link>
+						<Link className="gsap-btn active" to="/">Home</Link>
+						<Link className="gsap-btn" to="/top">Top</Link>
+						<Link className="gsap-btn" to="/reviewed">Reviewed</Link>
 					</footer>
 				</div>	
 			</BrowserRouter>
