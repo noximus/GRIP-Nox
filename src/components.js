@@ -29,7 +29,7 @@ export const Home = props => <Transition
 	</div>
 </Transition>;
 
-export const Services = props => <Transition
+export const Top = props => <Transition
 	unmountOnExit
 	in={props.show}
 	timeout={1000}
@@ -45,7 +45,7 @@ export const Services = props => <Transition
 	<div className="position-absolute col-12">
 		<div className="col-12 mt-5">
 			<div className="alert alert-success">
-				<h2 className="text-center mb-0">SERVICES</h2>
+				<h2 className="text-center mb-0">Top</h2>
 			</div>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, suscipit consequuntur repellendus qui harum, cumque facilis quisquam, consectetur saepe doloremque ducimus? Suscipit repudiandae aut fuga.</p>
 			<p>Explicabo ut ea, hic delectus iste error illo tempora molestiae facilis amet officia, repudiandae impedit praesentium labore enim doloremque optio quae sunt odit possimus repellendus.</p>
@@ -53,7 +53,7 @@ export const Services = props => <Transition
 	</div>
 </Transition>;
 
-export const Contact = props => <Transition
+export const Reviewed = props => <Transition
 	unmountOnExit
 	in={props.show}
 	timeout={1000}
@@ -70,7 +70,7 @@ export const Contact = props => <Transition
 		<div className="col-12 mt-5">
 		
 			<div className="alert alert-success">
-				<h3 className="text-center mb-0">CONTACT</h3>
+				<h3 className="text-center mb-0">Reviewed</h3>
 			</div>
 
 			<div className="row justify-content-center">

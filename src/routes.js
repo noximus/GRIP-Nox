@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
-import { Home, Services, Contact } from "./components";
+import { Home, Top, Reviewed } from "./components";
+import './routes.css';
 
 class Routes extends Component {
 
@@ -12,29 +13,28 @@ class Routes extends Component {
 			<div>
 			<BrowserRouter>
 				<div>
-
 					{/* MENU */}
 					<nav>
-						<Link className="gsap-btn" to="/">Home</Link>
-						<Link className="gsap-btn" to="/services">Services</Link>
-						<Link className="gsap-btn" to="/contact">Contact</Link>
+						
 					</nav>
-
 					{/* CONTENT */}
-					<div>
+					<div className="main-cont">
 						<Route path="/" exact>
 							{ ({ match }) => <Home show={match !== null} /> }
 						</Route>
-						
-						<Route path="/services">
-							{ ({ match }) => <Services show={match !== null} /> }
+						<Route path="/top">
+							{ ({ match }) => <Top show={match !== null} /> }
 						</Route>
-						<Route path="/contact">
-							{ ({ match }) => <Contact show={match !== null} /> }
+						<Route path="/reviewed">
+							{ ({ match }) => <Reviewed show={match !== null} /> }
 						</Route>
 					</div>
-
-				</div>
+					<footer>
+						<Link className="gsap-btn active" to="/"><div>Home</div></Link>
+						<Link className="gsap-btn" to="/top"><div>Top</div></Link>
+						<Link className="gsap-btn" to="/reviewed"><div>Reviewed</div></Link>
+					</footer>
+				</div>	
 			</BrowserRouter>
 			</div>
 		</div>;

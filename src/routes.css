@@ -1,0 +1,40 @@
+.main-cont {
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 56px;
+    background: #431C60;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;  
+}
+
+.gsap-btn {
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.active{ 
+  border-bottom: 2px solid white;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: #A648EB;
+}
+a:hover,
+.gsap-btn:hover,
+.gsap-btn:active,
+.gsap-btn:focus {
+  text-decoration: none;
+  color: #fff;
+}
